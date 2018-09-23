@@ -54,4 +54,13 @@ public class Post {
 //        checkLikes(likes);
 //        this.likes = likes;
 //    }
+
+    @Override
+    public String toString() {
+        return "Post{" +
+                "author='" + author + '\'' +
+                ", content='" + content + '\'' +
+                ", likes=" + likes +
+                '}';
+    }
 }
