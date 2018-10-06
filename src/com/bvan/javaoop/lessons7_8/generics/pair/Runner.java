@@ -13,5 +13,7 @@ public class Runner {
 
         Pair<String, String> nameAndSurname;
         Pair<String, List<String>> nameAndFriends;
+
+        Pair<Pair<String, Integer>, Pair<Long, Double>> x;
     }
 }
